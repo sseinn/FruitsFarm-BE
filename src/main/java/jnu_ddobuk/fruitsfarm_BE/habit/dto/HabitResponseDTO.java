@@ -18,7 +18,7 @@ import java.util.Map;
 public class HabitResponseDTO {
 
     @Builder.Default
-    private int statusCode = 200;
+    private int status_code = 200;
 
     @Builder.Default
     private boolean success = true;
